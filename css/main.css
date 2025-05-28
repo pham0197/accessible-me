@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: rgb(2, 75, 139);
+  background-color: rgb(140, 2, 64);
   margin: 0;
   padding: 0;
 }
@@ -19,7 +19,7 @@ h6 {
   max-width: 1080px;
   margin: 0 auto;
   padding: 0 1rem;
-  background-color: rgb(213, 231, 247);
+  background-color: rgb(245, 243, 214);
   line-height: 1.9;
   font-size: 1.3em;
 }
@@ -32,8 +32,8 @@ img {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
+  margin: 10px;
+  padding: 30px;
 }
 
 .main-nav ul li {
@@ -51,9 +51,10 @@ img {
 form input,
 form textarea {
   display: block;
-  width: 100%;
+  width: 95%;
   margin-bottom: 1rem;
   padding: .5rem 1rem;
+ 
 }
 
 form textarea {
@@ -72,8 +73,22 @@ form button {
 
 .site-footer {
   padding: 2rem 0;
+  text-align: center;
 }
 
-.contact-section {
-  display: 80%;
+.skip-links{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.skip-links a{
+  position: absolute;
+  top: -3em;
+  background-color: black;
+  color:white;
+  padding: .5em 1em;
+  font-weight: bold;
+}
+.skip-links a:focus{
+  top: 0;
 }
